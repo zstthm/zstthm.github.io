@@ -1,0 +1,33 @@
+    div {
+        margin: 0;
+        padding: 0;
+    }
+    
+    @font-face {
+        font-family: "fontInters";
+        src: url(fonts.ttf);
+    }
+    
+    .wn {
+        font-size: 4.33em;
+        font-family: fontInters;
+    }
+    
+    .AI p {
+        font-size: 3em;
+        text-indent: 2em;
+        font-family: fontInters;
+    }
+    
+    .xin {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .shuang02 {
+        background-color: violet;
+        background-image: url(img/shuang.png), url(img/gkxin.jpg);
+        background-repeat: no-repeat no-repeat;
+        background-position: 56% 50%, 0 0;
+        background-size: contain, cover;
+    }
